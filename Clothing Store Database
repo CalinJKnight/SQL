@@ -1,0 +1,42 @@
+# SQL
+SQL Portfolio
+/** Clothes:
+Black Jeans (4,5,$5)
+Lavender Leggings (7,6,$7)
+Blue Collar Shirts (3,16,$2)
+Orange Tank Tops (8,15,$6)
+Green Tank Tops (6,8,$8)
+FAMU Bodycon Dresses (20,100,$14)
+FAMU T-Shirts (10,98,$12)
+Pink Skirts (4,50,$16)
+Men's Black Joggers (10,95,$25)
+Men's Black Basketball Shorts (7,88,$26)
+Women's Knee High Boots (15,78,$30)
+Men's Cowboy Boots (15,79,$32)
+Women's Black Sandals (15,25,$34)
+Yellow Sunglasses (4,94,$1)
+Purple Sunglasses (2,77,$3) 
+**/
+
+CREATE TABLE clothes (ID INTEGER PRIMARY KEY, Name TEXT, Price INTEGER, Quantity INTEGER, Rating INTEGER); 
+
+INSERT INTO clothes VALUES(1, "Black Jeans", 4, 5,5);
+INSERT INTO clothes VALUES(2, "Lavender Leggings",7, 6,7); 
+INSERT INTO clothes VALUES(3, "Blue Collar Shirts", 3, 16, 2);
+INSERT INTO clothes VALUES(4, "Orange Tank Tops", 8, 15, 6);
+INSERT INTO clothes VALUES(5, "Green Tank Tops", 6, 8, 8); 
+INSERT INTO clothes VALUES(6, "FAMU Bodycon Dresses", 20, 100, 14);
+INSERT INTO clothes VALUES(7, "FAMU T-Shirts", 10, 98, 12);
+INSERT INTO clothes VALUES(8, "Pink Skirts", 4, 50, 16);
+INSERT INTO clothes VALUES(9, "Men's Black Joggers", 10, 95, 25);
+INSERT INTO clothes VALUES(10, "Men's Black Basketball Shorts",7, 88, 26); 
+INSERT INTO clothes VALUES(11, "Women's Knee High Boots", 15, 78, 30);
+INSERT INTO clothes VALUES(12, "Men's Cowboy Boots", 15, 79, 32); 
+INSERT INTO clothes VALUES(13, "Women's Black Sandals",15, 25, 34);
+INSERT INTO clothes VALUES(14, "Yellow Sunglasses", 4, 94, 34);
+INSERT INTO clothes VALUES(15, "Purple Sunglasses", 2, 77, 3); 
+
+SELECT * FROM clothes; 
+
+SELECT * FROM clothes ORDER BY Price; 
+
